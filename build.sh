@@ -2,7 +2,7 @@ echo we herere
 cat /etc/os-release
 node --version
 yum check-update
-yum install https://rpms.remirepo.net/enterprise/remi-release-8.rpm
+yum install http://rpms.remirepo.net/fedora/remi-release-36.rpm
 yum install epel-release
 yum install module list php
 # yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
