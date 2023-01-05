@@ -10,7 +10,3 @@
     ffsafsagagagsafafssa <?php echo "<h1> we did it</h1>"<?>
 </body>
 </html>
-<?php
-
-// header('content-type: application/json');
-// echo json_encode(['time' => time(), 'date' => date('d.m.Y'), 'tech' => 'Vercel']);
