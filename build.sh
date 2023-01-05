@@ -1,10 +1,15 @@
+#!/bin/sh
+ 
+# Install PHP & WGET
 echo we herere
 cat /etc/os-release
 node --version
 yum update
 yum check-update
 yum install epel-release yum-utils
-yum install php
+yum install -y amazon-linux-extras
+amazon-linux-extras enable php8.1
+yum clean metadata
 # yum install http://rpms.remirepo.net/fedora/remi-release-36.rpm
 # yum install epel-release
 # yum install module list php
