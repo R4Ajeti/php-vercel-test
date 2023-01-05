@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    ffsafsagagagsafafssa <?php echo "<h1> we did it</h1>"<?>
+    ffsafsagagagsafafssa <?php echo "<h1> we did it</h1>"?>
 </body>
 </html>
